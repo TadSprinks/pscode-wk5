@@ -6,10 +6,10 @@ Procedure Calculate_Sum(A, B)
 End Procedure
 Copy
 In this pseudocode:
-•	Calculate Sum is the procedure name.
-•	A and B are the inputs.
-•	Sum is a variable that stores the result of A + B.
-•	Output Sum displays the result.
+    Calculate Sum is the procedure name.
+    A and B are the inputs.
+    Sum is a variable that stores the result of A + B.
+    Output Sum displays the result.
 
 // Exercise 2: Check if a Number is Even or Odd
 
