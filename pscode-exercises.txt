@@ -22,10 +22,10 @@ Procedure Check_Even_Odd(X)
 End Procedure
 Copy
 In this pseudocode:
-•	Check_Even_Odd is the procedure name.
-•	X is the input.
-•	X mod 2 equals 0 checks if the remainder of  X divided by 2 is 0. If it is, then X is even.
-•	Output "Even" or Output "Odd" displays whether the number is even or odd.
+Check_Even_Odd is the procedure name.
+X is the input.
+X % 2 equals 0 checks if the remainder of  X divided by 2 is 0. If it is, then X is even.
+Output "Even" or Output "Odd" displays whether the number is even or odd.
 
 
 
