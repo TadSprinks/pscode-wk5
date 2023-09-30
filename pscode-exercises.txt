@@ -1,0 +1,153 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+Procedure Calculate_Sum(A, B)
+    Sum = A + B
+    Output Sum
+End Procedure
+Copy
+In this pseudocode:
+•	Calculate Sum is the procedure name.
+•	A and B are the inputs.
+•	Sum is a variable that stores the result of A + B.
+•	Output Sum displays the result.
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Procedure Check_Even_Odd(X)
+    If X mod 2 equals 0 Then
+        Output "Even"
+    Else
+        Output "Odd"
+    End If
+End Procedure
+Copy
+In this pseudocode:
+•	Check_Even_Odd is the procedure name.
+•	X is the input.
+•	X mod 2 equals 0 checks if the remainder of  X divided by 2 is 0. If it is, then X is even.
+•	Output "Even" or Output "Odd" displays whether the number is even or odd.
+
+
+
+
+
+
+
+
+
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+
+Initialize an empty list, numbers
+For i from 1 to 5 do
+    Print "Enter number " + i + ":"
+    Read input Number from the user
+    Append input Number to the list, numbers
+End For
+
+This pseudocode will prompt the user to enter a number five times, and each number will be stored in the list numbers. 
+
+b) Calculate the average of the five numbers.
+
+Initialize a variable, total, to 0
+For each number in the list, numbers do
+    Add number to total
+End For
+
+Calculate average as total divided by the length of the list, numbers
+Print "The average of the numbers is: " + average
+ 
+This pseudocode will calculate the sum of all numbers in the list numbers and then divide it by the count of numbers (which is 5 in this case) to get the average. 
+
+
+
+
+
+
+
+
+
+
+
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+
+Initialize a variable, minNumber, to the first number in the list, numbers
+Initialize a variable, maxNumber, to the first number in the list, numbers
+
+For each number in the list, numbers do
+    If number is less than minNumber then
+        Set minNumber to number
+    EndIf
+
+    If number is greater than maxNumber then
+        Set maxNumber to number
+    EndIf
+EndFor
+
+Print "The smallest number is: " + minNumber
+Print "The largest number is: " + maxNumber
+
+This pseudocode will iterate through each number in the list numbers, updating minNumber and maxNumber as it finds new minimum and maximum values. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d) Write out the results found from steps b and c with a message describing what they are
+
+Initialize an empty list, numbers
+For i from 1 to 5 do
+    Print "Enter number " + i + ":"
+    Read inputNumber from the user
+    Append inputNumber to the list, numbers
+End For
+
+Initialize a variable, total, to 0
+For each number in the list, numbers do
+    Add number to total
+End For
+
+Calculate average as total divided by the length of the list, numbers
+Print "The average of the numbers is: " + average
+
+Initialize a variable, minNumber, to the first number in the list, numbers
+Initialize a variable, maxNumber, to the first number in the list, numbers
+
+For each number in the list, numbers do
+    If number is less than minNumber then
+        Set minNumber to number
+    EndIf
+
+    If number is greater than maxNumber then
+        Set maxNumber to number
+    EndIf
+EndFor
+
+Print "The smallest number is: " + minNumber
+Print "The largest number is: " + maxNumber
+
+This pseudocode will prompt the user to enter a number five times, calculate the average of these numbers, and find the minimum and maximum values. It will then print out these results with appropriate messages.
+
+-- END --
